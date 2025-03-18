@@ -9,7 +9,7 @@ def calculate_class_averages(classrooms):
              for grade in grades:
                   scores += grade
                   grade_count += 1
-                  output[topic]=scores/grade_count
+        output[topic]=scores/grade_count
 
     return output
 
