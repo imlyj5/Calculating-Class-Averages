@@ -5,6 +5,7 @@ def calculate_class_averages(classrooms):
         grade_count = 0
         if student == {}:
              output[topic]=0
+             continue
         for grades in student.values():
              for grade in grades:
                   scores += grade
